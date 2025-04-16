@@ -44,20 +44,23 @@
     </style>
 </head>
 <body class="bg-white">
+    <!-- Navbar -->
     <nav class="bg-[#2E619F] text-white p-4 md:p-6 sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex items-center">
                 <img src="Illustrations/Logo.png" alt="GWS logo" class="h-8 md:h-10 w-auto mr-2">
             </div>
             <div class="hidden md:flex space-x-6 items-center">
-                <a href="landingpageuser.html" class="hover:underline hover:text-blue-200 transition">Home</a>
                 <a href="#journal" class="hover:underline hover:text-blue-200 transition">Journal</a>
                 <a href="#" class="hover:underline hover:text-blue-200 transition">Tracker</a>
                 <a href="#articles" class="hover:underline hover:text-blue-200 transition">Articles</a>
-                <a href="#music" class="hover:underline hover:text-blue-200 transition">Music</a>
-                <a href="" class="px-3 py-2 transition btn-primary\">
-                    <img src="Illustrations/Generic avatar.png" width="40", height="40">
-                </a>
+                <a href="music.html" class="hover:underline hover:text-blue-200 transition">Music</a>
+                <div class="flex items-center space-x-1">
+                    <a href="#" class="px-1 transition">
+                      <img src="Illustrations/Generic avatar.png" width="40" height="40">
+                    </a>
+                    <span id="username" class="text-white font-bold"></span>
+                </div>
             </div>
             <button class="md:hidden text-2xl" id="mobile-menu-button">
                 <i class="fas fa-bars"></i>
@@ -67,11 +70,10 @@
         <!-- Mobile Menu -->
         <div class="md:hidden hidden bg-[#1a4a7f] w-full" id="mobile-menu">
             <div class="container mx-auto py-4 flex flex-col space-y-4">
-                <a href="landingpageuser.html" class="hover:underline hover:text-blue-200 transition">Journal</a>
                 <a href="#journal" class="hover:underline hover:text-blue-200 transition">Journal</a>
-                <a href="#" class="hover:underline hover:text-blue-200 transition">Tracker</a>
+                <a href="#meditation" class="hover:underline hover:text-blue-200 transition">Meditation</a>
                 <a href="#articles" class="hover:underline hover:text-blue-200 transition">Articles</a>
-                <a href="#music" class="hover:underline hover:text-blue-200 transition">Music</a>
+                <a href="music.html" class="hover:underline hover:text-blue-200 transition">Music</a>
                 <a href="" class=" px-3 py-2 text-center">
                     <img src="Illustrations/Generic avatar.png">
                 </a>
